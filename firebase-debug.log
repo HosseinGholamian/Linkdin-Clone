@@ -1,0 +1,56 @@
+[debug] [2022-11-06T20:48:58.208Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T20:48:58.209Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-06T20:48:58.210Z] CLI Version:   11.16.0
+[debug] [2022-11-06T20:48:58.210Z] Platform:      win32
+[debug] [2022-11-06T20:48:58.210Z] Node Version:  v16.17.1
+[debug] [2022-11-06T20:48:58.210Z] Time:          Sun Nov 06 2022 23:48:58 GMT+0300 (Volgograd Standard Time)
+[debug] [2022-11-06T20:48:58.210Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T20:48:58.212Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-06T20:48:58.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-06T20:48:58.223Z] > authorizing via signed-in user (gholamianhossein96@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Hossein\front\react\linkdin-cline
+
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-11-06T20:49:03.500Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-06T20:49:06.630Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-06T20:49:07.042Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2022-11-06T20:49:07.043Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-11-06T20:49:07.043Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-11-06T20:49:07.449Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\mm\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-11-06T20:49:38.229Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T20:49:38.230Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2022-11-06T20:49:38.230Z] CLI Version:   11.16.0
+[debug] [2022-11-06T20:49:38.230Z] Platform:      win32
+[debug] [2022-11-06T20:49:38.230Z] Node Version:  v16.17.1
+[debug] [2022-11-06T20:49:38.231Z] Time:          Sun Nov 06 2022 23:49:38 GMT+0300 (Volgograd Standard Time)
+[debug] [2022-11-06T20:49:38.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T20:49:38.232Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=255757182&redirect_uri=http%3A%2F%2Flocalhost%3A9005&login_hint=gholamianhossein96%40gmail.com
+[info] 
+[info] Waiting for authentication...
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-11-06T20:49:43.528Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
